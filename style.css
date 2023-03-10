@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+.pic{
+    border-radius: 50%;
+}
+#welcome{
+    background:linear-gradient(#60ebeb 0%,#27ae60 100% );
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+    z-index: 9;
+}
+h1{
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 200;
+color: cyan;
+}
+#name{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 50px;
+    color: azure;
+}
+h2{
+    font-family: 'Twinkle Star', cursive;
+
+    font-size: 30px;
+    font-weight: 200;
+    color: aliceblue;
+}
+.anyname{
+    display: table-cell;
+    vertical-align: middle;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;    
+}
+.line{
+    background-color: aqua;
+    width: 100px;
+    height: 6px;
+    margin: 8px auto;
+    border-radius: 25%;
+}
+p{
+    word-spacing: 10px;
+    line-height: 40px;
+}
+.menu{
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    position: fixed;
+    cursor: pointer;
+    list-style: none;
+}
+.links{
+    display: inline;
+    padding:10px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+}
